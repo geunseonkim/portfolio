@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { SiGithub } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import mainProjectImage from "/src/assets/main.png";
 
 interface Project {
   title: string;
@@ -17,7 +18,7 @@ interface Project {
 const mainProjectsData: Project[] = [
   {
     title: "쇼미더구조",
-    imageUrl: "/src/assets/main.png",
+    imageUrl: mainProjectImage,
     description:
       "사용자가 업로드한 프로젝트를 AI로 분석해서 시각화 다이어그램과 주요 파일 요약을 제공하는 서비스",
     tags: ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "Redis", "BullMQ"],
