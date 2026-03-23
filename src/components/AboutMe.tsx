@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center py-20 px-20 sm:px-6"
+      className="min-h-screen flex items-center py-20 px-6 sm:px-20"
     >
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row gap-8">
