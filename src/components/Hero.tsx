@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import profileImage from "/src/assets/me.png";
 
 const Hero = () => {
   const targetRef = useRef<HTMLElement>(null);
@@ -29,8 +30,8 @@ const Hero = () => {
         className="w-full md:w-1/2 flex items-center justify-center z-10 relative py-8 md:py-0"
       >
         <img
-          src="/src/assets/me.png"
-          alt="Kim Geunseon's profile"
+          src={profileImage}
+          alt="김근선 프로필 이미지"
           className="w-full max-w-xs md:max-w-md lg:max-w-xl shadow-2xl object-contain"
         />
       </motion.div>
